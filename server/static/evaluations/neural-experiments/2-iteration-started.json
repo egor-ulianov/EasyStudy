@@ -1,0 +1,526 @@
+{
+    "iteration": 4,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Incredibles, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8961.jpg",
+                    "movie_idx": "438",
+                    "movie_id": 8961,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Schindler's List (1993)",
+                    "url": "/static/datasets/ml-latest/img/527.jpg",
+                    "movie_idx": "56",
+                    "movie_id": 527,
+                    "genres": [
+                        "Drama",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Catch Me If You Can (2002)",
+                    "url": "/static/datasets/ml-latest/img/5989.jpg",
+                    "movie_idx": "344",
+                    "movie_id": 5989,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Pulp Fiction (1994)",
+                    "url": "/static/datasets/ml-latest/img/296.jpg",
+                    "movie_idx": "32",
+                    "movie_id": 296,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Green Mile, The (1999)",
+                    "url": "/static/datasets/ml-latest/img/3147.jpg",
+                    "movie_idx": "203",
+                    "movie_id": 3147,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Toy Story 3 (2010)",
+                    "url": "/static/datasets/ml-latest/img/78499.jpg",
+                    "movie_idx": "779",
+                    "movie_id": 78499,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Jurassic Park (1993)",
+                    "url": "/static/datasets/ml-latest/img/480.jpg",
+                    "movie_idx": "52",
+                    "movie_id": 480,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Departed, The (2006)",
+                    "url": "/static/datasets/ml-latest/img/48516.jpg",
+                    "movie_idx": "541",
+                    "movie_id": 48516,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Good Will Hunting (1997)",
+                    "url": "/static/datasets/ml-latest/img/1704.jpg",
+                    "movie_idx": "128",
+                    "movie_id": 1704,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Taken (2008)",
+                    "url": "/static/datasets/ml-latest/img/59369.jpg",
+                    "movie_idx": "633",
+                    "movie_id": 59369,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Yes Man (2008)",
+                    "url": "/static/datasets/ml-latest/img/64969.jpg",
+                    "movie_idx": "675",
+                    "movie_id": 64969,
+                    "genres": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes: A Game of Shadows (2011)",
+                    "url": "/static/datasets/ml-latest/img/91542.jpg",
+                    "movie_idx": "898",
+                    "movie_id": 91542,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Gone Girl (2014)",
+                    "url": "/static/datasets/ml-latest/img/112556.jpg",
+                    "movie_idx": "1080",
+                    "movie_id": 112556,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Zombieland (2009)",
+                    "url": "/static/datasets/ml-latest/img/71535.jpg",
+                    "movie_idx": "735",
+                    "movie_id": 71535,
+                    "genres": [
+                        "Action",
+                        "Comedy",
+                        "Horror"
+                    ]
+                },
+                {
+                    "movie": "Wreck-It Ralph (2012)",
+                    "url": "/static/datasets/ml-latest/img/97913.jpg",
+                    "movie_idx": "949",
+                    "movie_id": 97913,
+                    "genres": [
+                        "Animation",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Silence of the Lambs, The (1991)",
+                    "url": "/static/datasets/ml-latest/img/593.jpg",
+                    "movie_idx": "65",
+                    "movie_id": 593,
+                    "genres": [
+                        "Crime",
+                        "Horror",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Fugitive, The (1993)",
+                    "url": "/static/datasets/ml-latest/img/457.jpg",
+                    "movie_idx": "51",
+                    "movie_id": 457,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: Episode III - Revenge of the Sith (2005)",
+                    "url": "/static/datasets/ml-latest/img/33493.jpg",
+                    "movie_idx": "468",
+                    "movie_id": 33493,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Gone Girl (2014)",
+                    "url": "/static/datasets/ml-latest/img/112556.jpg",
+                    "movie_idx": "1080",
+                    "movie_id": 112556,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Departed, The (2006)",
+                    "url": "/static/datasets/ml-latest/img/48516.jpg",
+                    "movie_idx": "541",
+                    "movie_id": 48516,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Fugitive, The (1993)",
+                    "url": "/static/datasets/ml-latest/img/457.jpg",
+                    "movie_idx": "51",
+                    "movie_id": 457,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Taken (2008)",
+                    "url": "/static/datasets/ml-latest/img/59369.jpg",
+                    "movie_idx": "633",
+                    "movie_id": 59369,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Silence of the Lambs, The (1991)",
+                    "url": "/static/datasets/ml-latest/img/593.jpg",
+                    "movie_idx": "65",
+                    "movie_id": 593,
+                    "genres": [
+                        "Crime",
+                        "Horror",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: Episode III - Revenge of the Sith (2005)",
+                    "url": "/static/datasets/ml-latest/img/33493.jpg",
+                    "movie_idx": "468",
+                    "movie_id": 33493,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Zombieland (2009)",
+                    "url": "/static/datasets/ml-latest/img/71535.jpg",
+                    "movie_idx": "735",
+                    "movie_id": 71535,
+                    "genres": [
+                        "Action",
+                        "Comedy",
+                        "Horror"
+                    ]
+                },
+                {
+                    "movie": "Pulp Fiction (1994)",
+                    "url": "/static/datasets/ml-latest/img/296.jpg",
+                    "movie_idx": "32",
+                    "movie_id": 296,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes: A Game of Shadows (2011)",
+                    "url": "/static/datasets/ml-latest/img/91542.jpg",
+                    "movie_idx": "898",
+                    "movie_id": 91542,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 1
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 0
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 1
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                1054,
+                170,
+                103,
+                1048,
+                706,
+                314,
+                875,
+                1129,
+                125,
+                484
+            ],
+            [
+                814,
+                1083,
+                580,
+                544,
+                749,
+                472,
+                758,
+                629,
+                496,
+                639
+            ],
+            [
+                505,
+                386,
+                334,
+                299,
+                1070,
+                293,
+                962,
+                36,
+                268,
+                1142
+            ],
+            [
+                438,
+                56,
+                344,
+                32,
+                203,
+                779,
+                52,
+                980,
+                541,
+                128
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                1129,
+                360,
+                715,
+                366,
+                896,
+                292,
+                262,
+                308,
+                412,
+                540
+            ],
+            [
+                697,
+                341,
+                295,
+                144,
+                815,
+                226,
+                863,
+                45,
+                43,
+                584
+            ],
+            [
+                188,
+                68,
+                1138,
+                0,
+                1110,
+                299,
+                348,
+                185,
+                701,
+                1070
+            ],
+            [
+                633,
+                675,
+                898,
+                1080,
+                735,
+                949,
+                980,
+                65,
+                51,
+                468
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                715,
+                540,
+                896,
+                1129,
+                262,
+                412,
+                292,
+                192,
+                366,
+                360
+            ],
+            [
+                144,
+                697,
+                863,
+                749,
+                226,
+                45,
+                815,
+                43,
+                341,
+                629
+            ],
+            [
+                1142,
+                185,
+                0,
+                299,
+                1070,
+                505,
+                36,
+                188,
+                701,
+                1110
+            ],
+            [
+                1080,
+                541,
+                51,
+                633,
+                980,
+                65,
+                468,
+                735,
+                32,
+                898
+            ]
+        ]
+    }
+}

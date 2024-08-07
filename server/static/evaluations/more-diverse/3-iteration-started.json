@@ -1,0 +1,538 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Lilo & Stitch (2002)",
+                    "url": "/static/datasets/ml-latest/img/5444.jpg",
+                    "movie_idx": "319",
+                    "movie_id": 5444,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Coco (2017)",
+                    "url": "/static/datasets/ml-latest/img/177765.jpg",
+                    "movie_idx": "1362",
+                    "movie_id": 177765,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children"
+                    ]
+                },
+                {
+                    "movie": "Madagascar (2005)",
+                    "url": "/static/datasets/ml-latest/img/33615.jpg",
+                    "movie_idx": "469",
+                    "movie_id": 33615,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Spirited Away (Sen to Chihiro no kamikakushi) (2001)",
+                    "url": "/static/datasets/ml-latest/img/5618.jpg",
+                    "movie_idx": "327",
+                    "movie_id": 5618,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Corpse Bride (2005)",
+                    "url": "/static/datasets/ml-latest/img/37729.jpg",
+                    "movie_idx": "484",
+                    "movie_id": 37729,
+                    "genres": [
+                        "Animation",
+                        "Comedy",
+                        "Fantasy",
+                        "Musical",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Rango (2011)",
+                    "url": "/static/datasets/ml-latest/img/84944.jpg",
+                    "movie_idx": "831",
+                    "movie_id": 84944,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Western"
+                    ]
+                },
+                {
+                    "movie": "Kung Fu Panda 2 (2011)",
+                    "url": "/static/datasets/ml-latest/img/87222.jpg",
+                    "movie_idx": "857",
+                    "movie_id": 87222,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Finding Dory (2016)",
+                    "url": "/static/datasets/ml-latest/img/157296.jpg",
+                    "movie_idx": "1247",
+                    "movie_id": 157296,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Ponyo (Gake no ue no Ponyo) (2008)",
+                    "url": "/static/datasets/ml-latest/img/65261.jpg",
+                    "movie_idx": "681",
+                    "movie_id": 65261,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Beauty and the Beast (1991)",
+                    "url": "/static/datasets/ml-latest/img/595.jpg",
+                    "movie_idx": "66",
+                    "movie_id": 595,
+                    "genres": [
+                        "Animation",
+                        "Children",
+                        "Fantasy",
+                        "Musical",
+                        "Romance",
+                        "IMAX"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Harry Potter and the Goblet of Fire (2005)",
+                    "url": "/static/datasets/ml-latest/img/40815.jpg",
+                    "movie_idx": "496",
+                    "movie_id": 40815,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "The Imitation Game (2014)",
+                    "url": "/static/datasets/ml-latest/img/116797.jpg",
+                    "movie_idx": "1110",
+                    "movie_id": 116797,
+                    "genres": [
+                        "Drama",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The Winter Soldier (2014)",
+                    "url": "/static/datasets/ml-latest/img/110102.jpg",
+                    "movie_idx": "1052",
+                    "movie_id": 110102,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Shutter Island (2010)",
+                    "url": "/static/datasets/ml-latest/img/74458.jpg",
+                    "movie_idx": "758",
+                    "movie_id": 74458,
+                    "genres": [
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Bourne Ultimatum, The (2007)",
+                    "url": "/static/datasets/ml-latest/img/54286.jpg",
+                    "movie_idx": "584",
+                    "movie_id": 54286,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The First Avenger (2011)",
+                    "url": "/static/datasets/ml-latest/img/88140.jpg",
+                    "movie_idx": "865",
+                    "movie_id": 88140,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy 2 (2017)",
+                    "url": "/static/datasets/ml-latest/img/122918.jpg",
+                    "movie_idx": "1148",
+                    "movie_id": 122918,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Hobbit: An Unexpected Journey, The (2012)",
+                    "url": "/static/datasets/ml-latest/img/98809.jpg",
+                    "movie_idx": "958",
+                    "movie_id": 98809,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Spider-Man (2002)",
+                    "url": "/static/datasets/ml-latest/img/5349.jpg",
+                    "movie_idx": "314",
+                    "movie_id": 5349,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Kill Bill: Vol. 1 (2003)",
+                    "url": "/static/datasets/ml-latest/img/6874.jpg",
+                    "movie_idx": "375",
+                    "movie_id": 6874,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Deadpool 2 (2018)",
+                    "url": "/static/datasets/ml-latest/img/187593.jpg",
+                    "movie_idx": "1406",
+                    "movie_id": 187593,
+                    "genres": [
+                        "Action",
+                        "Comedy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Hobbit: An Unexpected Journey, The (2012)",
+                    "url": "/static/datasets/ml-latest/img/98809.jpg",
+                    "movie_idx": "958",
+                    "movie_id": 98809,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy 2 (2017)",
+                    "url": "/static/datasets/ml-latest/img/122918.jpg",
+                    "movie_idx": "1148",
+                    "movie_id": 122918,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Amazing Spider-Man, The (2012)",
+                    "url": "/static/datasets/ml-latest/img/95510.jpg",
+                    "movie_idx": "924",
+                    "movie_id": 95510,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Yes Man (2008)",
+                    "url": "/static/datasets/ml-latest/img/64969.jpg",
+                    "movie_idx": "675",
+                    "movie_id": 64969,
+                    "genres": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Logan (2017)",
+                    "url": "/static/datasets/ml-latest/img/168252.jpg",
+                    "movie_idx": "1313",
+                    "movie_id": 168252,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Thor: Ragnarok (2017)",
+                    "url": "/static/datasets/ml-latest/img/122916.jpg",
+                    "movie_idx": "1147",
+                    "movie_id": 122916,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: Episode III - Revenge of the Sith (2005)",
+                    "url": "/static/datasets/ml-latest/img/33493.jpg",
+                    "movie_idx": "468",
+                    "movie_id": 33493,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Paperman (2012)",
+                    "url": "/static/datasets/ml-latest/img/98491.jpg",
+                    "movie_idx": "957",
+                    "movie_id": 98491,
+                    "genres": [
+                        "Animation",
+                        "Comedy",
+                        "Romance"
+                    ]
+                }
+            ],
+            "order": 1
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 0
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 1
+        }
+    },
+    "result_layout": "row-single",
+    "shown": {
+        "EASE": [
+            [
+                487,
+                321,
+                112,
+                75,
+                9,
+                767,
+                810,
+                639,
+                779,
+                180
+            ],
+            [
+                1044,
+                766,
+                268,
+                785,
+                202,
+                740,
+                71,
+                159,
+                552,
+                1178
+            ],
+            [
+                1103,
+                728,
+                410,
+                1075,
+                1239,
+                816,
+                184,
+                62,
+                637,
+                583
+            ],
+            [
+                685,
+                206,
+                994,
+                1296,
+                1030,
+                136,
+                990,
+                554,
+                519,
+                252
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                438,
+                0,
+                170,
+                360,
+                341,
+                632,
+                192,
+                629,
+                292,
+                366
+            ],
+            [
+                552,
+                202,
+                45,
+                43,
+                36,
+                786,
+                386,
+                262,
+                1178,
+                268
+            ],
+            [
+                863,
+                697,
+                749,
+                715,
+                144,
+                32,
+                472,
+                814,
+                896,
+                65
+            ],
+            [
+                875,
+                1048,
+                505,
+                544,
+                1174,
+                1070,
+                1083,
+                735,
+                185,
+                295
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                360,
+                292,
+                1142,
+                438,
+                540,
+                632,
+                341,
+                299,
+                366,
+                0
+            ],
+            [
+                1178,
+                125,
+                202,
+                412,
+                1129,
+                43,
+                308,
+                226,
+                45,
+                949
+            ],
+            [
+                1136,
+                814,
+                715,
+                815,
+                293,
+                921,
+                749,
+                896,
+                863,
+                701
+            ],
+            [
+                1150,
+                1138,
+                460,
+                735,
+                296,
+                194,
+                1296,
+                136,
+                255,
+                404
+            ]
+        ]
+    }
+}

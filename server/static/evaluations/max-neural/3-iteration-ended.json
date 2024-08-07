@@ -1,0 +1,173 @@
+{
+    "iteration": 5,
+    "selected": [
+        [
+            308,
+            706,
+            713,
+            327,
+            1565,
+            360,
+            1182,
+            540,
+            1180,
+            1130,
+            1527,
+            1716
+        ],
+        [
+            924,
+            1185,
+            1655,
+            1129,
+            1136,
+            1630,
+            1130,
+            685,
+            292,
+            865,
+            327,
+            460,
+            1613,
+            206,
+            1239,
+            1,
+            1024
+        ],
+        [
+            308,
+            1052,
+            206,
+            1610,
+            1630,
+            1613,
+            1180,
+            1451,
+            1145,
+            563,
+            1362,
+            973,
+            810,
+            1264,
+            1802,
+            1165,
+            1884,
+            27
+        ],
+        [
+            637,
+            414,
+            1142,
+            400,
+            1723,
+            327,
+            1610,
+            1613,
+            1362,
+            1165,
+            206
+        ]
+    ],
+    "selected_variants": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ]
+    ],
+    "dont_like_anything": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "algorithm_comparison": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ratings": [
+        {
+            "EASE": 3,
+            "Combined Neural Recommender System": 2,
+            "Combined Neural Diversity Recommender System": 3
+        },
+        {
+            "EASE": 4,
+            "Combined Neural Recommender System": 3,
+            "Combined Neural Diversity Recommender System": 4
+        },
+        {
+            "EASE": 4,
+            "Combined Neural Recommender System": 2,
+            "Combined Neural Diversity Recommender System": 4
+        },
+        {
+            "EASE": 3,
+            "Combined Neural Recommender System": 1,
+            "Combined Neural Diversity Recommender System": 3
+        }
+    ]
+}

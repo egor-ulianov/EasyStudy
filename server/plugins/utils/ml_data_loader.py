@@ -189,6 +189,7 @@ class MLDataLoader:
     # Download all the images
     def download_images(self):
         i = 0
+        Image.MAX_IMAGE_PIXELS = None
         start_time = time.perf_counter()
         for movie_idx, url in self.movie_index_to_url.items():
             
@@ -233,6 +234,7 @@ class MLDataLoader:
             i += 1
 
     def get_image(self, movie_idx):
+        Image.MAX_IMAGE_PIXELS = None
         if self.img_dir_path and has_app_context():
             if movie_idx not in self.movie_index_to_url:
                 # Download it first if it is missing
@@ -338,8 +340,11 @@ class MLDataLoader:
 
         # First check which images are downloaded so far
         already_downloaded = [] if not os.path.exists(self.img_dir_path) else os.listdir(self.img_dir_path)
+        print(self.img_dir_path)
         self.movie_index_to_url = dict()
         for img_name in already_downloaded:
+            if not img_name.endswith(".jpg"):
+                continue
             movie_id = int(img_name.split(".jpg")[0])
             if movie_id in self.movie_id_to_index: # It could be possible we have more images than movies (due to filtering)
                 self.movie_index_to_url[self.movie_id_to_index[movie_id]] = os.path.join(self.img_dir_path, img_name)

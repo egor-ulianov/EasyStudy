@@ -1,0 +1,525 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Skyfall (2012)",
+                    "url": "/static/datasets/ml-latest/img/96079.jpg",
+                    "movie_idx": "930",
+                    "movie_id": 96079,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy (2014)",
+                    "url": "/static/datasets/ml-latest/img/112852.jpg",
+                    "movie_idx": "1083",
+                    "movie_id": 112852,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "How to Train Your Dragon (2010)",
+                    "url": "/static/datasets/ml-latest/img/76093.jpg",
+                    "movie_idx": "766",
+                    "movie_id": 76093,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "District 9 (2009)",
+                    "url": "/static/datasets/ml-latest/img/70286.jpg",
+                    "movie_idx": "719",
+                    "movie_id": 70286,
+                    "genres": [
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Usual Suspects, The (1995)",
+                    "url": "/static/datasets/ml-latest/img/50.jpg",
+                    "movie_idx": "13",
+                    "movie_id": 50,
+                    "genres": [
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "No Country for Old Men (2007)",
+                    "url": "/static/datasets/ml-latest/img/55820.jpg",
+                    "movie_idx": "603",
+                    "movie_id": 55820,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Toy Story 3 (2010)",
+                    "url": "/static/datasets/ml-latest/img/78499.jpg",
+                    "movie_idx": "779",
+                    "movie_id": 78499,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Apollo 13 (1995)",
+                    "url": "/static/datasets/ml-latest/img/150.jpg",
+                    "movie_idx": "20",
+                    "movie_id": 150,
+                    "genres": [
+                        "Adventure",
+                        "Drama",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Terminator 2: Judgment Day (1991)",
+                    "url": "/static/datasets/ml-latest/img/589.jpg",
+                    "movie_idx": "63",
+                    "movie_id": 589,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Arrival (2016)",
+                    "url": "/static/datasets/ml-latest/img/164179.jpg",
+                    "movie_idx": "1287",
+                    "movie_id": 164179,
+                    "genres": [
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Twelve Monkeys (a.k.a. 12 Monkeys) (1995)",
+                    "url": "/static/datasets/ml-latest/img/32.jpg",
+                    "movie_idx": "8",
+                    "movie_id": 32,
+                    "genres": [
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy (2014)",
+                    "url": "/static/datasets/ml-latest/img/112852.jpg",
+                    "movie_idx": "1083",
+                    "movie_id": 112852,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Fifth Element, The (1997)",
+                    "url": "/static/datasets/ml-latest/img/1527.jpg",
+                    "movie_idx": "106",
+                    "movie_id": 1527,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Terminator 2: Judgment Day (1991)",
+                    "url": "/static/datasets/ml-latest/img/589.jpg",
+                    "movie_idx": "63",
+                    "movie_id": 589,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Inside Out (2015)",
+                    "url": "/static/datasets/ml-latest/img/134853.jpg",
+                    "movie_idx": "1178",
+                    "movie_id": 134853,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Drama",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Bourne Supremacy, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8665.jpg",
+                    "movie_idx": "424",
+                    "movie_id": 8665,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Usual Suspects, The (1995)",
+                    "url": "/static/datasets/ml-latest/img/50.jpg",
+                    "movie_idx": "13",
+                    "movie_id": 50,
+                    "genres": [
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Goodfellas (1990)",
+                    "url": "/static/datasets/ml-latest/img/1213.jpg",
+                    "movie_idx": "85",
+                    "movie_id": 1213,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Intouchables (2011)",
+                    "url": "/static/datasets/ml-latest/img/92259.jpg",
+                    "movie_idx": "904",
+                    "movie_id": 92259,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Moneyball (2011)",
+                    "url": "/static/datasets/ml-latest/img/89492.jpg",
+                    "movie_idx": "874",
+                    "movie_id": 89492,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Whiplash (2014)",
+                    "url": "/static/datasets/ml-latest/img/112552.jpg",
+                    "movie_idx": "1079",
+                    "movie_id": 112552,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Ice Age (2002)",
+                    "url": "/static/datasets/ml-latest/img/5218.jpg",
+                    "movie_idx": "308",
+                    "movie_id": 5218,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Avengers: Age of Ultron (2015)",
+                    "url": "/static/datasets/ml-latest/img/122892.jpg",
+                    "movie_idx": "1138",
+                    "movie_id": 122892,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes: A Game of Shadows (2011)",
+                    "url": "/static/datasets/ml-latest/img/91542.jpg",
+                    "movie_idx": "898",
+                    "movie_id": 91542,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Inside Out (2015)",
+                    "url": "/static/datasets/ml-latest/img/134853.jpg",
+                    "movie_idx": "1178",
+                    "movie_id": 134853,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Drama",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "I, Robot (2004)",
+                    "url": "/static/datasets/ml-latest/img/8644.jpg",
+                    "movie_idx": "423",
+                    "movie_id": 8644,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Logan (2017)",
+                    "url": "/static/datasets/ml-latest/img/168252.jpg",
+                    "movie_idx": "1313",
+                    "movie_id": 168252,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                }
+            ],
+            "order": 2
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 0
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 1
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 2
+        }
+    },
+    "result_layout": "row-single",
+    "shown": {
+        "EASE": [
+            [
+                293,
+                327,
+                358,
+                1132,
+                300,
+                412,
+                633,
+                468,
+                170,
+                706
+            ],
+            [
+                56,
+                472,
+                438,
+                386,
+                541,
+                203,
+                292,
+                544,
+                344,
+                496
+            ],
+            [
+                580,
+                758,
+                11,
+                268,
+                320,
+                505,
+                128,
+                715,
+                962,
+                814
+            ],
+            [
+                875,
+                17,
+                52,
+                552,
+                1110,
+                202,
+                546,
+                1174,
+                401,
+                398
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                629,
+                170,
+                299,
+                366,
+                786,
+                632,
+                43,
+                341,
+                36,
+                262
+            ],
+            [
+                65,
+                544,
+                292,
+                32,
+                386,
+                697,
+                295,
+                896,
+                1048,
+                472
+            ],
+            [
+                505,
+                185,
+                11,
+                375,
+                715,
+                758,
+                318,
+                0,
+                45,
+                268
+            ],
+            [
+                701,
+                552,
+                250,
+                1136,
+                1070,
+                1032,
+                1110,
+                398,
+                1174,
+                875
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                366,
+                632,
+                360,
+                299,
+                468,
+                170,
+                584,
+                341,
+                144,
+                262
+            ],
+            [
+                697,
+                292,
+                32,
+                295,
+                896,
+                863,
+                125,
+                749,
+                540,
+                386
+            ],
+            [
+                188,
+                375,
+                1080,
+                505,
+                1129,
+                1142,
+                185,
+                815,
+                758,
+                255
+            ],
+            [
+                348,
+                51,
+                1110,
+                701,
+                1070,
+                1136,
+                68,
+                1174,
+                1032,
+                735
+            ]
+        ]
+    }
+}

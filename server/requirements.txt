@@ -12,3 +12,6 @@ pillow
 gunicorn
 cinemagoer
 boto3
+pkg-config
+gcc
+h5py

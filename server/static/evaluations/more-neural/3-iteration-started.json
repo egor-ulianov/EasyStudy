@@ -1,0 +1,542 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "In Bruges (2008)",
+                    "url": "/static/datasets/ml-latest/img/57669.jpg",
+                    "movie_idx": "624",
+                    "movie_id": 57669,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Prestige, The (2006)",
+                    "url": "/static/datasets/ml-latest/img/48780.jpg",
+                    "movie_idx": "544",
+                    "movie_id": 48780,
+                    "genres": [
+                        "Drama",
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4896.jpg",
+                    "movie_idx": "293",
+                    "movie_id": 4896,
+                    "genres": [
+                        "Adventure",
+                        "Children",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+                    "url": "/static/datasets/ml-latest/img/88125.jpg",
+                    "movie_idx": "863",
+                    "movie_id": 88125,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Drama",
+                        "Fantasy",
+                        "Mystery",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Deathly Hallows: Part 1 (2010)",
+                    "url": "/static/datasets/ml-latest/img/81834.jpg",
+                    "movie_idx": "814",
+                    "movie_id": 81834,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "V for Vendetta (2006)",
+                    "url": "/static/datasets/ml-latest/img/44191.jpg",
+                    "movie_idx": "505",
+                    "movie_id": 44191,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Children of Men (2006)",
+                    "url": "/static/datasets/ml-latest/img/48774.jpg",
+                    "movie_idx": "543",
+                    "movie_id": 48774,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Drama",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Inside Out (2015)",
+                    "url": "/static/datasets/ml-latest/img/134853.jpg",
+                    "movie_idx": "1178",
+                    "movie_id": 134853,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Drama",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Being John Malkovich (1999)",
+                    "url": "/static/datasets/ml-latest/img/2997.jpg",
+                    "movie_idx": "193",
+                    "movie_id": 2997,
+                    "genres": [
+                        "Comedy",
+                        "Drama",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Goblet of Fire (2005)",
+                    "url": "/static/datasets/ml-latest/img/40815.jpg",
+                    "movie_idx": "496",
+                    "movie_id": 40815,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Taken (2008)",
+                    "url": "/static/datasets/ml-latest/img/59369.jpg",
+                    "movie_idx": "633",
+                    "movie_id": 59369,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "The Highwaymen (2019)",
+                    "url": "/static/datasets/ml-latest/img/200354.jpg",
+                    "movie_idx": "1472",
+                    "movie_id": 200354,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Descendants, The (2011)",
+                    "url": "/static/datasets/ml-latest/img/91077.jpg",
+                    "movie_idx": "893",
+                    "movie_id": 91077,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Star Trek Into Darkness (2013)",
+                    "url": "/static/datasets/ml-latest/img/102445.jpg",
+                    "movie_idx": "980",
+                    "movie_id": 102445,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Hunt for Red October, The (1990)",
+                    "url": "/static/datasets/ml-latest/img/1610.jpg",
+                    "movie_idx": "116",
+                    "movie_id": 1610,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes: A Game of Shadows (2011)",
+                    "url": "/static/datasets/ml-latest/img/91542.jpg",
+                    "movie_idx": "898",
+                    "movie_id": 91542,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Ocean's Eleven (2001)",
+                    "url": "/static/datasets/ml-latest/img/4963.jpg",
+                    "movie_idx": "295",
+                    "movie_id": 4963,
+                    "genres": [
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Mean Girls (2004)",
+                    "url": "/static/datasets/ml-latest/img/7451.jpg",
+                    "movie_idx": "404",
+                    "movie_id": 7451,
+                    "genres": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+                    "url": "/static/datasets/ml-latest/img/88125.jpg",
+                    "movie_idx": "863",
+                    "movie_id": 88125,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Drama",
+                        "Fantasy",
+                        "Mystery",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Transformers (2007)",
+                    "url": "/static/datasets/ml-latest/img/53996.jpg",
+                    "movie_idx": "579",
+                    "movie_id": 53996,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Let the Right One In (Låt den rätte komma in) (2008)",
+                    "url": "/static/datasets/ml-latest/img/61240.jpg",
+                    "movie_idx": "651",
+                    "movie_id": 61240,
+                    "genres": [
+                        "Drama",
+                        "Fantasy",
+                        "Horror",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Negotiator, The (1998)",
+                    "url": "/static/datasets/ml-latest/img/2058.jpg",
+                    "movie_idx": "145",
+                    "movie_id": 2058,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Bug's Life, A (1998)",
+                    "url": "/static/datasets/ml-latest/img/2355.jpg",
+                    "movie_idx": "159",
+                    "movie_id": 2355,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Mummy Returns, The (2001)",
+                    "url": "/static/datasets/ml-latest/img/4270.jpg",
+                    "movie_idx": "266",
+                    "movie_id": 4270,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: Episode VII - The Force Awakens (2015)",
+                    "url": "/static/datasets/ml-latest/img/122886.jpg",
+                    "movie_idx": "1136",
+                    "movie_id": 122886,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Burn After Reading (2008)",
+                    "url": "/static/datasets/ml-latest/img/61323.jpg",
+                    "movie_idx": "652",
+                    "movie_id": 61323,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "American History X (1998)",
+                    "url": "/static/datasets/ml-latest/img/2329.jpg",
+                    "movie_idx": "156",
+                    "movie_id": 2329,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Warrior (2011)",
+                    "url": "/static/datasets/ml-latest/img/89774.jpg",
+                    "movie_idx": "878",
+                    "movie_id": 89774,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Margin Call (2011)",
+                    "url": "/static/datasets/ml-latest/img/90439.jpg",
+                    "movie_idx": "887",
+                    "movie_id": 90439,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Saving Private Ryan (1998)",
+                    "url": "/static/datasets/ml-latest/img/2028.jpg",
+                    "movie_idx": "144",
+                    "movie_id": 2028,
+                    "genres": [
+                        "Action",
+                        "Drama",
+                        "War"
+                    ]
+                }
+            ],
+            "order": 0
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 1
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 0
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                710,
+                1030,
+                811,
+                76,
+                946,
+                878,
+                36,
+                950,
+                156,
+                11
+            ],
+            [
+                43,
+                82,
+                56,
+                128,
+                1374,
+                65,
+                291,
+                170,
+                32,
+                131
+            ],
+            [
+                13,
+                615,
+                17,
+                464,
+                296,
+                1110,
+                268,
+                85,
+                166,
+                250
+            ],
+            [
+                786,
+                169,
+                398,
+                1181,
+                580,
+                31,
+                300,
+                88,
+                603,
+                62
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                540,
+                1129,
+                1136,
+                815,
+                68,
+                188,
+                360,
+                348,
+                144,
+                262
+            ],
+            [
+                213,
+                675,
+                924,
+                584,
+                366,
+                308,
+                651,
+                199,
+                1432,
+                292
+            ],
+            [
+                809,
+                412,
+                45,
+                369,
+                632,
+                226,
+                715,
+                1180,
+                198,
+                1182
+            ],
+            [
+                125,
+                159,
+                185,
+                949,
+                1138,
+                215,
+                426,
+                1530,
+                132,
+                957
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                68,
+                791,
+                51,
+                1129,
+                27,
+                540,
+                340,
+                262,
+                348,
+                1299
+            ],
+            [
+                259,
+                675,
+                271,
+                1432,
+                1377,
+                366,
+                924,
+                887,
+                743,
+                213
+            ],
+            [
+                1113,
+                772,
+                1180,
+                1185,
+                979,
+                266,
+                809,
+                1084,
+                145,
+                352
+            ],
+            [
+                1180,
+                1084,
+                213,
+                1377,
+                352,
+                809,
+                1374,
+                1182,
+                292,
+                811
+            ]
+        ]
+    }
+}

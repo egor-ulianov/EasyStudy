@@ -1,0 +1,536 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Batman Begins (2005)",
+                    "url": "/static/datasets/ml-latest/img/33794.jpg",
+                    "movie_idx": "472",
+                    "movie_id": 33794,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Beautiful Mind, A (2001)",
+                    "url": "/static/datasets/ml-latest/img/4995.jpg",
+                    "movie_idx": "300",
+                    "movie_id": 4995,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Terminal, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8529.jpg",
+                    "movie_idx": "417",
+                    "movie_id": 8529,
+                    "genres": [
+                        "Comedy",
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Deadpool (2016)",
+                    "url": "/static/datasets/ml-latest/img/122904.jpg",
+                    "movie_idx": "1142",
+                    "movie_id": 122904,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes (2009)",
+                    "url": "/static/datasets/ml-latest/img/73017.jpg",
+                    "movie_idx": "750",
+                    "movie_id": 73017,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The First Avenger (2011)",
+                    "url": "/static/datasets/ml-latest/img/88140.jpg",
+                    "movie_idx": "865",
+                    "movie_id": 88140,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Toy Story (1995)",
+                    "url": "/static/datasets/ml-latest/img/1.jpg",
+                    "movie_idx": "0",
+                    "movie_id": 1,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Inception (2010)",
+                    "url": "/static/datasets/ml-latest/img/79132.jpg",
+                    "movie_idx": "786",
+                    "movie_id": 79132,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Divergent (2014)",
+                    "url": "/static/datasets/ml-latest/img/108190.jpg",
+                    "movie_idx": "1041",
+                    "movie_id": 108190,
+                    "genres": [
+                        "Adventure",
+                        "Romance",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Ratatouille (2007)",
+                    "url": "/static/datasets/ml-latest/img/50872.jpg",
+                    "movie_idx": "552",
+                    "movie_id": 50872,
+                    "genres": [
+                        "Animation",
+                        "Children",
+                        "Drama"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Sixth Sense, The (1999)",
+                    "url": "/static/datasets/ml-latest/img/2762.jpg",
+                    "movie_idx": "185",
+                    "movie_id": 2762,
+                    "genres": [
+                        "Drama",
+                        "Horror",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "movie": "Home (2015)",
+                    "url": "/static/datasets/ml-latest/img/130520.jpg",
+                    "movie_idx": "1165",
+                    "movie_id": 130520,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Notebook, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8533.jpg",
+                    "movie_idx": "418",
+                    "movie_id": 8533,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: Episode III - Revenge of the Sith (2005)",
+                    "url": "/static/datasets/ml-latest/img/33493.jpg",
+                    "movie_idx": "468",
+                    "movie_id": 33493,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "The Gentlemen (2020)",
+                    "url": "/static/datasets/ml-latest/img/210861.jpg",
+                    "movie_idx": "1530",
+                    "movie_id": 210861,
+                    "genres": [
+                        "Action",
+                        "Crime"
+                    ]
+                },
+                {
+                    "movie": "Alice in Wonderland (2010)",
+                    "url": "/static/datasets/ml-latest/img/74789.jpg",
+                    "movie_idx": "763",
+                    "movie_id": 74789,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Dark Knight Rises, The (2012)",
+                    "url": "/static/datasets/ml-latest/img/91529.jpg",
+                    "movie_idx": "896",
+                    "movie_id": 91529,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Crime",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Quantum of Solace (2008)",
+                    "url": "/static/datasets/ml-latest/img/63113.jpg",
+                    "movie_idx": "662",
+                    "movie_id": 63113,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Tron: Legacy (2010)",
+                    "url": "/static/datasets/ml-latest/img/82461.jpg",
+                    "movie_idx": "822",
+                    "movie_id": 82461,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Brave (2012)",
+                    "url": "/static/datasets/ml-latest/img/95167.jpg",
+                    "movie_idx": "921",
+                    "movie_id": 95167,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Kingsman: The Secret Service (2015)",
+                    "url": "/static/datasets/ml-latest/img/119145.jpg",
+                    "movie_idx": "1129",
+                    "movie_id": 119145,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy",
+                        "Crime"
+                    ]
+                },
+                {
+                    "movie": "Green Mile, The (1999)",
+                    "url": "/static/datasets/ml-latest/img/3147.jpg",
+                    "movie_idx": "203",
+                    "movie_id": 3147,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Tarzan (1999)",
+                    "url": "/static/datasets/ml-latest/img/2687.jpg",
+                    "movie_idx": "177",
+                    "movie_id": 2687,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Up (2009)",
+                    "url": "/static/datasets/ml-latest/img/68954.jpg",
+                    "movie_idx": "706",
+                    "movie_id": 68954,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Hitchhiker's Guide to the Galaxy, The (2005)",
+                    "url": "/static/datasets/ml-latest/img/33004.jpg",
+                    "movie_idx": "465",
+                    "movie_id": 33004,
+                    "genres": [
+                        "Adventure",
+                        "Comedy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy (2014)",
+                    "url": "/static/datasets/ml-latest/img/112852.jpg",
+                    "movie_idx": "1083",
+                    "movie_id": 112852,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Salt (2010)",
+                    "url": "/static/datasets/ml-latest/img/79293.jpg",
+                    "movie_idx": "791",
+                    "movie_id": 79293,
+                    "genres": [
+                        "Action",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "About Schmidt (2002)",
+                    "url": "/static/datasets/ml-latest/img/5945.jpg",
+                    "movie_idx": "340",
+                    "movie_id": 5945,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "WALL·E (2008)",
+                    "url": "/static/datasets/ml-latest/img/60069.jpg",
+                    "movie_idx": "639",
+                    "movie_id": 60069,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Romance",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Saving Private Ryan (1998)",
+                    "url": "/static/datasets/ml-latest/img/2028.jpg",
+                    "movie_idx": "144",
+                    "movie_id": 2028,
+                    "genres": [
+                        "Action",
+                        "Drama",
+                        "War"
+                    ]
+                }
+            ],
+            "order": 2
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 1
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 0
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 2
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                166,
+                203,
+                136,
+                17,
+                583,
+                159,
+                632,
+                68,
+                977,
+                177
+            ],
+            [
+                962,
+                252,
+                522,
+                814,
+                292,
+                319,
+                875,
+                438,
+                45,
+                62
+            ],
+            [
+                66,
+                571,
+                496,
+                580,
+                255,
+                1052,
+                56,
+                1083,
+                1374,
+                639
+            ],
+            [
+                1149,
+                334,
+                293,
+                20,
+                1181,
+                701,
+                706,
+                478,
+                1164,
+                128
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                1129,
+                924,
+                262,
+                366,
+                540,
+                27,
+                360,
+                863,
+                584,
+                697
+            ],
+            [
+                348,
+                815,
+                675,
+                651,
+                715,
+                144,
+                199,
+                1136,
+                412,
+                308
+            ],
+            [
+                980,
+                1182,
+                198,
+                43,
+                957,
+                295,
+                188,
+                1138,
+                579,
+                949
+            ],
+            [
+                633,
+                701,
+                352,
+                192,
+                1185,
+                215,
+                145,
+                1406,
+                404,
+                898
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                817,
+                584,
+                924,
+                366,
+                791,
+                1129,
+                213,
+                360,
+                262,
+                540
+            ],
+            [
+                1136,
+                1377,
+                1299,
+                979,
+                1432,
+                348,
+                815,
+                675,
+                51,
+                340
+            ],
+            [
+                116,
+                1138,
+                1180,
+                198,
+                743,
+                887,
+                271,
+                259,
+                266,
+                809
+            ],
+            [
+                166,
+                522,
+                159,
+                1129,
+                1136,
+                863,
+                639,
+                651,
+                177,
+                1138
+            ]
+        ]
+    }
+}

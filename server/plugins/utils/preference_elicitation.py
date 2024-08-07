@@ -282,6 +282,7 @@ def prepare_wrapper_once():
 # Define enrich_results on each loader?
 def enrich_results(top_k, loader):
     print(loader)
+    print(top_k)
     if type(loader) is MLDataLoader:
         top_k_ids = [loader.movie_index_to_id[movie_idx] for movie_idx in top_k]
         top_k_description = [loader.movies_df_indexed.loc[movie_id].title for movie_id in top_k_ids]

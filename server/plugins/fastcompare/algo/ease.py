@@ -3,11 +3,8 @@ from abc import ABC
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from plugins.fastcompare.algo.algorithm_base import (
-    AlgorithmBase,
-    Parameter,
-    ParameterType,
-)
+
+from plugins.fastcompare.algo.algorithm_base import AlgorithmBase, Parameter, ParameterType
 
 
 class EASE(AlgorithmBase, ABC):

@@ -23,6 +23,8 @@ class MLDataLoaderWrapper(DataLoaderBase):
 
         datasets_base_dir = os.path.join(get_abs_project_root_path(), 'static', 'datasets')
 
+        print(datasets_base_dir)
+
         if not os.path.exists(datasets_base_dir):
             assert False, f"Datasets base dir ({datasets_base_dir}) does not exist"
         
@@ -40,6 +42,8 @@ class MLDataLoaderWrapper(DataLoaderBase):
         img_dir_path = os.path.join(datasets_base_dir, "ml-latest", "img")
         # Ensure img dir path exists
         Path(img_dir_path).mkdir(parents=True, exist_ok=True)
+
+        print(img_dir_path)
 
         self.loader = MLDataLoader(ratings_path, movies_path, tags_path, links_path,
             [RatingLowFilter(4.0), MovieFilterByYear(1990), RatingFilterOld(2010), RatingsPerYearFilter(50.0), RatingUserFilter(100), RatedMovieFilter(), LinkFilter()],

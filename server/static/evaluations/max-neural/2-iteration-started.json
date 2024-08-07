@@ -1,0 +1,520 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Aladdin (1992)",
+                    "url": "/static/datasets/ml-latest/img/588.jpg",
+                    "movie_idx": "62",
+                    "movie_id": 588,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Musical"
+                    ]
+                },
+                {
+                    "movie": "I, Tonya (2017)",
+                    "url": "/static/datasets/ml-latest/img/178061.jpg",
+                    "movie_idx": "1363",
+                    "movie_id": 178061,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Time Lapse (2014)",
+                    "url": "/static/datasets/ml-latest/img/115680.jpg",
+                    "movie_idx": "1106",
+                    "movie_id": 115680,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes (2009)",
+                    "url": "/static/datasets/ml-latest/img/73017.jpg",
+                    "movie_idx": "750",
+                    "movie_id": 73017,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Hot Fuzz (2007)",
+                    "url": "/static/datasets/ml-latest/img/51255.jpg",
+                    "movie_idx": "554",
+                    "movie_id": 51255,
+                    "genres": [
+                        "Action",
+                        "Comedy",
+                        "Crime",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "movie": "Con Air (1997)",
+                    "url": "/static/datasets/ml-latest/img/1552.jpg",
+                    "movie_idx": "108",
+                    "movie_id": 1552,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Incredibles, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8961.jpg",
+                    "movie_idx": "438",
+                    "movie_id": 8961,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "The Social Dilemma (2020)",
+                    "url": "/static/datasets/ml-latest/img/223944.jpg",
+                    "movie_idx": "1554",
+                    "movie_id": 223944,
+                    "genres": [
+                        "Documentary",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "No Country for Old Men (2007)",
+                    "url": "/static/datasets/ml-latest/img/55820.jpg",
+                    "movie_idx": "603",
+                    "movie_id": 55820,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "The Dig (2021)",
+                    "url": "/static/datasets/ml-latest/img/231057.jpg",
+                    "movie_idx": "1567",
+                    "movie_id": 231057,
+                    "genres": [
+                        "Drama"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Girl Who Played with Fire, The (Flickan som lekte med elden) (2009)",
+                    "url": "/static/datasets/ml-latest/img/74510.jpg",
+                    "movie_idx": "759",
+                    "movie_id": 74510,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: The Rise of Skywalker (2019)",
+                    "url": "/static/datasets/ml-latest/img/208205.jpg",
+                    "movie_idx": "1516",
+                    "movie_id": 208205,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Night at the Museum: Secret of the Tomb (2014)",
+                    "url": "/static/datasets/ml-latest/img/119155.jpg",
+                    "movie_idx": "1130",
+                    "movie_id": 119155,
+                    "genres": [
+                        "Adventure",
+                        "Children",
+                        "Comedy",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Boondock Saints, The (2000)",
+                    "url": "/static/datasets/ml-latest/img/3275.jpg",
+                    "movie_idx": "213",
+                    "movie_id": 3275,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Dogma (1999)",
+                    "url": "/static/datasets/ml-latest/img/3052.jpg",
+                    "movie_idx": "198",
+                    "movie_id": 3052,
+                    "genres": [
+                        "Adventure",
+                        "Comedy",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "I Origins (2014)",
+                    "url": "/static/datasets/ml-latest/img/112804.jpg",
+                    "movie_idx": "1082",
+                    "movie_id": 112804,
+                    "genres": [
+                        "Drama",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "We Were Soldiers (2002)",
+                    "url": "/static/datasets/ml-latest/img/5152.jpg",
+                    "movie_idx": "307",
+                    "movie_id": 5152,
+                    "genres": [
+                        "Action",
+                        "Drama",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Vicky Cristina Barcelona (2008)",
+                    "url": "/static/datasets/ml-latest/img/60950.jpg",
+                    "movie_idx": "647",
+                    "movie_id": 60950,
+                    "genres": [
+                        "Comedy",
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Cove, The (2009)",
+                    "url": "/static/datasets/ml-latest/img/71462.jpg",
+                    "movie_idx": "731",
+                    "movie_id": 71462,
+                    "genres": [
+                        "Documentary"
+                    ]
+                },
+                {
+                    "movie": "Bug's Life, A (1998)",
+                    "url": "/static/datasets/ml-latest/img/2355.jpg",
+                    "movie_idx": "159",
+                    "movie_id": 2355,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Birds of Prey (And the Fantabulous Emancipation of One Harley Quinn) (2020)",
+                    "url": "/static/datasets/ml-latest/img/210569.jpg",
+                    "movie_idx": "1526",
+                    "movie_id": 210569,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Crime"
+                    ]
+                },
+                {
+                    "movie": "Predators (2010)",
+                    "url": "/static/datasets/ml-latest/img/79057.jpg",
+                    "movie_idx": "784",
+                    "movie_id": 79057,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Ides of March, The (2011)",
+                    "url": "/static/datasets/ml-latest/img/89804.jpg",
+                    "movie_idx": "879",
+                    "movie_id": 89804,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "127 Hours (2010)",
+                    "url": "/static/datasets/ml-latest/img/81562.jpg",
+                    "movie_idx": "809",
+                    "movie_id": 81562,
+                    "genres": [
+                        "Adventure",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Extraction 2 (2023)",
+                    "url": "/static/datasets/ml-latest/img/288167.jpg",
+                    "movie_idx": "1906",
+                    "movie_id": 288167,
+                    "genres": [
+                        "Action",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "The Fundamentals of Caring (2016)",
+                    "url": "/static/datasets/ml-latest/img/159717.jpg",
+                    "movie_idx": "1260",
+                    "movie_id": 159717,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Star Wars: The Rise of Skywalker (2019)",
+                    "url": "/static/datasets/ml-latest/img/208205.jpg",
+                    "movie_idx": "1516",
+                    "movie_id": 208205,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "I Origins (2014)",
+                    "url": "/static/datasets/ml-latest/img/112804.jpg",
+                    "movie_idx": "1082",
+                    "movie_id": 112804,
+                    "genres": [
+                        "Drama",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Girl Who Played with Fire, The (Flickan som lekte med elden) (2009)",
+                    "url": "/static/datasets/ml-latest/img/74510.jpg",
+                    "movie_idx": "759",
+                    "movie_id": 74510,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Boondock Saints, The (2000)",
+                    "url": "/static/datasets/ml-latest/img/3275.jpg",
+                    "movie_idx": "213",
+                    "movie_id": 3275,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 0
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 1
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 0
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                228,
+                899,
+                93,
+                546,
+                319,
+                70,
+                1071,
+                930,
+                142,
+                662
+            ],
+            [
+                401,
+                1270,
+                292,
+                377,
+                1301,
+                112,
+                1371,
+                95,
+                335,
+                47
+            ],
+            [
+                111,
+                31,
+                815,
+                1110,
+                1341,
+                23,
+                3,
+                320,
+                48,
+                375
+            ],
+            [
+                68,
+                1374,
+                72,
+                115,
+                291,
+                1273,
+                191,
+                1271,
+                1065,
+                1345
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                259,
+                1377,
+                1180,
+                1802,
+                935,
+                1299,
+                924,
+                51,
+                340,
+                1182
+            ],
+            [
+                262,
+                675,
+                1185,
+                540,
+                1472,
+                1432,
+                271,
+                1165,
+                199,
+                651
+            ],
+            [
+                772,
+                27,
+                360,
+                1084,
+                145,
+                1716,
+                1136,
+                308,
+                1264,
+                1527
+            ],
+            [
+                1530,
+                1638,
+                328,
+                266,
+                1172,
+                1884,
+                348,
+                1723,
+                957,
+                1522
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                1299,
+                51,
+                1802,
+                1180,
+                1377,
+                1281,
+                259,
+                743,
+                340,
+                791
+            ],
+            [
+                1432,
+                262,
+                540,
+                1185,
+                1129,
+                887,
+                1655,
+                1472,
+                352,
+                271
+            ],
+            [
+                979,
+                772,
+                1084,
+                145,
+                27,
+                817,
+                1346,
+                1202,
+                815,
+                1716
+            ],
+            [
+                1576,
+                1530,
+                1755,
+                1638,
+                266,
+                893,
+                1113,
+                1744,
+                1522,
+                348
+            ]
+        ]
+    }
+}

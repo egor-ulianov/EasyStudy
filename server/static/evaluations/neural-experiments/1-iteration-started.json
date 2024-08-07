@@ -1,0 +1,523 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Green Mile, The (1999)",
+                    "url": "/static/datasets/ml-latest/img/3147.jpg",
+                    "movie_idx": "203",
+                    "movie_id": 3147,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Toy Story 3 (2010)",
+                    "url": "/static/datasets/ml-latest/img/78499.jpg",
+                    "movie_idx": "779",
+                    "movie_id": 78499,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Seven (a.k.a. Se7en) (1995)",
+                    "url": "/static/datasets/ml-latest/img/47.jpg",
+                    "movie_idx": "11",
+                    "movie_id": 47,
+                    "genres": [
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Ratatouille (2007)",
+                    "url": "/static/datasets/ml-latest/img/50872.jpg",
+                    "movie_idx": "552",
+                    "movie_id": 50872,
+                    "genres": [
+                        "Animation",
+                        "Children",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Ex Machina (2015)",
+                    "url": "/static/datasets/ml-latest/img/115713.jpg",
+                    "movie_idx": "1107",
+                    "movie_id": 115713,
+                    "genres": [
+                        "Drama",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The First Avenger (2011)",
+                    "url": "/static/datasets/ml-latest/img/88140.jpg",
+                    "movie_idx": "865",
+                    "movie_id": 88140,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Wolf of Wall Street, The (2013)",
+                    "url": "/static/datasets/ml-latest/img/106782.jpg",
+                    "movie_idx": "1032",
+                    "movie_id": 106782,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Spider-Man: Into the Spider-Verse (2018)",
+                    "url": "/static/datasets/ml-latest/img/195159.jpg",
+                    "movie_idx": "1451",
+                    "movie_id": 195159,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Sherlock Holmes (2009)",
+                    "url": "/static/datasets/ml-latest/img/73017.jpg",
+                    "movie_idx": "750",
+                    "movie_id": 73017,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Pulp Fiction (1994)",
+                    "url": "/static/datasets/ml-latest/img/296.jpg",
+                    "movie_idx": "32",
+                    "movie_id": 296,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "I, Robot (2004)",
+                    "url": "/static/datasets/ml-latest/img/8644.jpg",
+                    "movie_idx": "423",
+                    "movie_id": 8644,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Boondock Saints, The (2000)",
+                    "url": "/static/datasets/ml-latest/img/3275.jpg",
+                    "movie_idx": "213",
+                    "movie_id": 3275,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Wolf of Wall Street, The (2013)",
+                    "url": "/static/datasets/ml-latest/img/106782.jpg",
+                    "movie_idx": "1032",
+                    "movie_id": 106782,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Fugitive, The (1993)",
+                    "url": "/static/datasets/ml-latest/img/457.jpg",
+                    "movie_idx": "51",
+                    "movie_id": 457,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Yes Man (2008)",
+                    "url": "/static/datasets/ml-latest/img/64969.jpg",
+                    "movie_idx": "675",
+                    "movie_id": 64969,
+                    "genres": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Looper (2012)",
+                    "url": "/static/datasets/ml-latest/img/96610.jpg",
+                    "movie_idx": "936",
+                    "movie_id": 96610,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Sleepy Hollow (1999)",
+                    "url": "/static/datasets/ml-latest/img/3081.jpg",
+                    "movie_idx": "199",
+                    "movie_id": 3081,
+                    "genres": [
+                        "Fantasy",
+                        "Horror",
+                        "Mystery",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Fighter, The (2010)",
+                    "url": "/static/datasets/ml-latest/img/81932.jpg",
+                    "movie_idx": "817",
+                    "movie_id": 81932,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Transformers (2007)",
+                    "url": "/static/datasets/ml-latest/img/53996.jpg",
+                    "movie_idx": "579",
+                    "movie_id": 53996,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Kill Bill: Vol. 1 (2003)",
+                    "url": "/static/datasets/ml-latest/img/6874.jpg",
+                    "movie_idx": "375",
+                    "movie_id": 6874,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The First Avenger (2011)",
+                    "url": "/static/datasets/ml-latest/img/88140.jpg",
+                    "movie_idx": "865",
+                    "movie_id": 88140,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Fugitive, The (1993)",
+                    "url": "/static/datasets/ml-latest/img/457.jpg",
+                    "movie_idx": "51",
+                    "movie_id": 457,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "I, Robot (2004)",
+                    "url": "/static/datasets/ml-latest/img/8644.jpg",
+                    "movie_idx": "423",
+                    "movie_id": 8644,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Wolf of Wall Street, The (2013)",
+                    "url": "/static/datasets/ml-latest/img/106782.jpg",
+                    "movie_idx": "1032",
+                    "movie_id": 106782,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "The Revenant (2015)",
+                    "url": "/static/datasets/ml-latest/img/139385.jpg",
+                    "movie_idx": "1201",
+                    "movie_id": 139385,
+                    "genres": [
+                        "Adventure",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Bourne Identity, The (2002)",
+                    "url": "/static/datasets/ml-latest/img/5418.jpg",
+                    "movie_idx": "318",
+                    "movie_id": 5418,
+                    "genres": [
+                        "Action",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Looper (2012)",
+                    "url": "/static/datasets/ml-latest/img/96610.jpg",
+                    "movie_idx": "936",
+                    "movie_id": 96610,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Pulp Fiction (1994)",
+                    "url": "/static/datasets/ml-latest/img/296.jpg",
+                    "movie_idx": "32",
+                    "movie_id": 296,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 1
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 2
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 0
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 1
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                875,
+                1147,
+                1287,
+                320,
+                1150,
+                1146,
+                814,
+                358,
+                1136,
+                546
+            ],
+            [
+                1148,
+                496,
+                299,
+                472,
+                376,
+                629,
+                1149,
+                1083,
+                386,
+                580
+            ],
+            [
+                268,
+                1174,
+                786,
+                293,
+                438,
+                544,
+                706,
+                1313,
+                36,
+                1052
+            ],
+            [
+                758,
+                1062,
+                962,
+                334,
+                1048,
+                1135,
+                0,
+                56,
+                639,
+                344
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                366,
+                1129,
+                1406,
+                715,
+                144,
+                360,
+                412,
+                632,
+                262,
+                1136
+            ],
+            [
+                295,
+                1138,
+                308,
+                815,
+                584,
+                192,
+                697,
+                43,
+                540,
+                292
+            ],
+            [
+                749,
+                1110,
+                1070,
+                125,
+                185,
+                980,
+                1313,
+                701,
+                924,
+                45
+            ],
+            [
+                898,
+                735,
+                68,
+                0,
+                255,
+                633,
+                188,
+                348,
+                65,
+                949
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                632,
+                1136,
+                341,
+                1129,
+                360,
+                896,
+                366,
+                226,
+                262,
+                412
+            ],
+            [
+                299,
+                292,
+                192,
+                584,
+                540,
+                43,
+                1142,
+                1138,
+                697,
+                295
+            ],
+            [
+                468,
+                1313,
+                701,
+                749,
+                125,
+                1070,
+                1110,
+                45,
+                36,
+                980
+            ],
+            [
+                255,
+                735,
+                1048,
+                188,
+                633,
+                1080,
+                898,
+                65,
+                0,
+                541
+            ]
+        ]
+    }
+}

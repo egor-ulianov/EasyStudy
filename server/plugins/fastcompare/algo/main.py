@@ -1,8 +1,10 @@
 import inspect
 import sys
+
+from plugins.fastcompare.algo.algorithm_base import AlgorithmBase
+
 [sys.path.append(i) for i in ['.', '..']]
 [sys.path.append(i) for i in ['../.', '../..', '../../.']]
-from plugins.fastcompare.algo.algorithm_base import AlgorithmBase
 
 
 if __name__ == "__main__":

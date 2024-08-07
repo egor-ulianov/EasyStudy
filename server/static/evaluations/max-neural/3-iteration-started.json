@@ -1,0 +1,517 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Pig (2021)",
+                    "url": "/static/datasets/ml-latest/img/252180.jpg",
+                    "movie_idx": "1588",
+                    "movie_id": 252180,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Incredibles, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8961.jpg",
+                    "movie_idx": "438",
+                    "movie_id": 8961,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Black Swan (2010)",
+                    "url": "/static/datasets/ml-latest/img/81591.jpg",
+                    "movie_idx": "811",
+                    "movie_id": 81591,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "I Saw the Devil (Akmareul boatda) (2010)",
+                    "url": "/static/datasets/ml-latest/img/82667.jpg",
+                    "movie_idx": "823",
+                    "movie_id": 82667,
+                    "genres": [
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "There Will Be Blood (2007)",
+                    "url": "/static/datasets/ml-latest/img/56782.jpg",
+                    "movie_idx": "615",
+                    "movie_id": 56782,
+                    "genres": [
+                        "Drama",
+                        "Western"
+                    ]
+                },
+                {
+                    "movie": "Guardians of the Galaxy (2014)",
+                    "url": "/static/datasets/ml-latest/img/112852.jpg",
+                    "movie_idx": "1083",
+                    "movie_id": 112852,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Joker (2019)",
+                    "url": "/static/datasets/ml-latest/img/204698.jpg",
+                    "movie_idx": "1498",
+                    "movie_id": 204698,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Puss in Boots: The Last Wish (2022)",
+                    "url": "/static/datasets/ml-latest/img/281096.jpg",
+                    "movie_idx": "1683",
+                    "movie_id": 281096,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "I Am Legend (2007)",
+                    "url": "/static/datasets/ml-latest/img/56174.jpg",
+                    "movie_idx": "608",
+                    "movie_id": 56174,
+                    "genres": [
+                        "Action",
+                        "Horror",
+                        "Sci-Fi",
+                        "Thriller",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Spider-Man (2002)",
+                    "url": "/static/datasets/ml-latest/img/5349.jpg",
+                    "movie_idx": "314",
+                    "movie_id": 5349,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Descendants, The (2011)",
+                    "url": "/static/datasets/ml-latest/img/91077.jpg",
+                    "movie_idx": "893",
+                    "movie_id": 91077,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Girl Who Played with Fire, The (Flickan som lekte med elden) (2009)",
+                    "url": "/static/datasets/ml-latest/img/74510.jpg",
+                    "movie_idx": "759",
+                    "movie_id": 74510,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Carol (2015)",
+                    "url": "/static/datasets/ml-latest/img/133645.jpg",
+                    "movie_idx": "1172",
+                    "movie_id": 133645,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Bullet Train (2022)",
+                    "url": "/static/datasets/ml-latest/img/273891.jpg",
+                    "movie_idx": "1642",
+                    "movie_id": 273891,
+                    "genres": [
+                        "Action",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Rye Lane (2023)",
+                    "url": "/static/datasets/ml-latest/img/285597.jpg",
+                    "movie_idx": "1783",
+                    "movie_id": 285597,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "RRR (2022)",
+                    "url": "/static/datasets/ml-latest/img/272417.jpg",
+                    "movie_idx": "1638",
+                    "movie_id": 272417,
+                    "genres": [
+                        "Action",
+                        "Drama",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "March of the Penguins (Marche de l'empereur, La) (2005)",
+                    "url": "/static/datasets/ml-latest/img/34072.jpg",
+                    "movie_idx": "474",
+                    "movie_id": 34072,
+                    "genres": [
+                        "Documentary"
+                    ]
+                },
+                {
+                    "movie": "The Gentlemen (2020)",
+                    "url": "/static/datasets/ml-latest/img/210861.jpg",
+                    "movie_idx": "1530",
+                    "movie_id": 210861,
+                    "genres": [
+                        "Action",
+                        "Crime"
+                    ]
+                },
+                {
+                    "movie": "John Wick: Chapter 4 (2023)",
+                    "url": "/static/datasets/ml-latest/img/283873.jpg",
+                    "movie_idx": "1744",
+                    "movie_id": 283873,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Cove, The (2009)",
+                    "url": "/static/datasets/ml-latest/img/71462.jpg",
+                    "movie_idx": "731",
+                    "movie_id": 71462,
+                    "genres": [
+                        "Documentary"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "JUNG_E (2023)",
+                    "url": "/static/datasets/ml-latest/img/282905.jpg",
+                    "movie_idx": "1716",
+                    "movie_id": 282905,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "The Post (2017)",
+                    "url": "/static/datasets/ml-latest/img/180497.jpg",
+                    "movie_idx": "1377",
+                    "movie_id": 180497,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Spider-Man: No Way Home (2021)",
+                    "url": "/static/datasets/ml-latest/img/263007.jpg",
+                    "movie_idx": "1613",
+                    "movie_id": 263007,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Spirited Away (Sen to Chihiro no kamikakushi) (2001)",
+                    "url": "/static/datasets/ml-latest/img/5618.jpg",
+                    "movie_idx": "327",
+                    "movie_id": 5618,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Sweet Home Alabama (2002)",
+                    "url": "/static/datasets/ml-latest/img/5620.jpg",
+                    "movie_idx": "328",
+                    "movie_id": 5620,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Captain America: The Winter Soldier (2014)",
+                    "url": "/static/datasets/ml-latest/img/110102.jpg",
+                    "movie_idx": "1052",
+                    "movie_id": 110102,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Let the Right One In (Låt den rätte komma in) (2008)",
+                    "url": "/static/datasets/ml-latest/img/61240.jpg",
+                    "movie_idx": "651",
+                    "movie_id": 61240,
+                    "genres": [
+                        "Drama",
+                        "Fantasy",
+                        "Horror",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Hellboy (2004)",
+                    "url": "/static/datasets/ml-latest/img/7373.jpg",
+                    "movie_idx": "400",
+                    "movie_id": 7373,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy",
+                        "Horror"
+                    ]
+                },
+                {
+                    "movie": "Four Lions (2010)",
+                    "url": "/static/datasets/ml-latest/img/77800.jpg",
+                    "movie_idx": "772",
+                    "movie_id": 77800,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "The Disaster Artist (2017)",
+                    "url": "/static/datasets/ml-latest/img/180297.jpg",
+                    "movie_idx": "1376",
+                    "movie_id": 180297,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                }
+            ],
+            "order": 0
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 1
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 0
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                308,
+                1610,
+                706,
+                713,
+                327,
+                865,
+                1149,
+                360,
+                1565,
+                1313
+            ],
+            [
+                1022,
+                460,
+                1613,
+                1301,
+                206,
+                1024,
+                1,
+                1239,
+                1230,
+                735
+            ],
+            [
+                1145,
+                1451,
+                1080,
+                810,
+                32,
+                563,
+                1098,
+                1362,
+                973,
+                156
+            ],
+            [
+                1664,
+                637,
+                414,
+                1110,
+                709,
+                1142,
+                1700,
+                1376,
+                400,
+                1533
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                1377,
+                259,
+                340,
+                1180,
+                1432,
+                1182,
+                199,
+                540,
+                1084,
+                675
+            ],
+            [
+                1136,
+                1299,
+                1655,
+                271,
+                1472,
+                262,
+                1129,
+                924,
+                651,
+                1185
+            ],
+            [
+                1264,
+                791,
+                1884,
+                1165,
+                145,
+                887,
+                27,
+                743,
+                1281,
+                1802
+            ],
+            [
+                772,
+                213,
+                1346,
+                1082,
+                1371,
+                957,
+                328,
+                817,
+                1723,
+                1522
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                1130,
+                1180,
+                1084,
+                1576,
+                340,
+                1527,
+                1432,
+                1377,
+                1716,
+                675
+            ],
+            [
+                1630,
+                199,
+                1130,
+                685,
+                327,
+                1084,
+                865,
+                292,
+                340,
+                675
+            ],
+            [
+                1377,
+                1180,
+                259,
+                308,
+                1052,
+                1613,
+                1630,
+                1610,
+                675,
+                206
+            ],
+            [
+                199,
+                1377,
+                271,
+                1281,
+                327,
+                206,
+                1165,
+                1362,
+                1613,
+                1610
+            ]
+        ]
+    }
+}

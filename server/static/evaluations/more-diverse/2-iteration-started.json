@@ -1,0 +1,533 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Social Network, The (2010)",
+                    "url": "/static/datasets/ml-latest/img/80463.jpg",
+                    "movie_idx": "799",
+                    "movie_id": 80463,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Avengers, The (2012)",
+                    "url": "/static/datasets/ml-latest/img/89745.jpg",
+                    "movie_idx": "875",
+                    "movie_id": 89745,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Her (2013)",
+                    "url": "/static/datasets/ml-latest/img/106920.jpg",
+                    "movie_idx": "1035",
+                    "movie_id": 106920,
+                    "genres": [
+                        "Drama",
+                        "Romance",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Incredibles, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8961.jpg",
+                    "movie_idx": "438",
+                    "movie_id": 8961,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Blood Diamond (2006)",
+                    "url": "/static/datasets/ml-latest/img/49530.jpg",
+                    "movie_idx": "549",
+                    "movie_id": 49530,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Crime",
+                        "Drama",
+                        "Thriller",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Gran Torino (2008)",
+                    "url": "/static/datasets/ml-latest/img/64614.jpg",
+                    "movie_idx": "669",
+                    "movie_id": 64614,
+                    "genres": [
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Pianist, The (2002)",
+                    "url": "/static/datasets/ml-latest/img/5995.jpg",
+                    "movie_idx": "347",
+                    "movie_id": 5995,
+                    "genres": [
+                        "Drama",
+                        "War"
+                    ]
+                },
+                {
+                    "movie": "Grand Budapest Hotel, The (2014)",
+                    "url": "/static/datasets/ml-latest/img/109374.jpg",
+                    "movie_idx": "1047",
+                    "movie_id": 109374,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Léon: The Professional (a.k.a. The Professional) (Léon) (1994)",
+                    "url": "/static/datasets/ml-latest/img/293.jpg",
+                    "movie_idx": "31",
+                    "movie_id": 293,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Dallas Buyers Club (2013)",
+                    "url": "/static/datasets/ml-latest/img/106100.jpg",
+                    "movie_idx": "1025",
+                    "movie_id": 106100,
+                    "genres": [
+                        "Drama"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Incredibles, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8961.jpg",
+                    "movie_idx": "438",
+                    "movie_id": 8961,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Lion King, The (1994)",
+                    "url": "/static/datasets/ml-latest/img/364.jpg",
+                    "movie_idx": "45",
+                    "movie_id": 364,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Drama",
+                        "Musical",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Avatar (2009)",
+                    "url": "/static/datasets/ml-latest/img/72998.jpg",
+                    "movie_idx": "749",
+                    "movie_id": 72998,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Twelve Monkeys (a.k.a. 12 Monkeys) (1995)",
+                    "url": "/static/datasets/ml-latest/img/32.jpg",
+                    "movie_idx": "8",
+                    "movie_id": 32,
+                    "genres": [
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Minority Report (2002)",
+                    "url": "/static/datasets/ml-latest/img/5445.jpg",
+                    "movie_idx": "320",
+                    "movie_id": 5445,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Léon: The Professional (a.k.a. The Professional) (Léon) (1994)",
+                    "url": "/static/datasets/ml-latest/img/293.jpg",
+                    "movie_idx": "31",
+                    "movie_id": 293,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Shrek (2001)",
+                    "url": "/static/datasets/ml-latest/img/4306.jpg",
+                    "movie_idx": "268",
+                    "movie_id": 4306,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Prisoner of Azkaban (2004)",
+                    "url": "/static/datasets/ml-latest/img/8368.jpg",
+                    "movie_idx": "412",
+                    "movie_id": 8368,
+                    "genres": [
+                        "Adventure",
+                        "Fantasy",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Terminator 2: Judgment Day (1991)",
+                    "url": "/static/datasets/ml-latest/img/589.jpg",
+                    "movie_idx": "63",
+                    "movie_id": 589,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                }
+            ],
+            "order": 2
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Avatar (2009)",
+                    "url": "/static/datasets/ml-latest/img/72998.jpg",
+                    "movie_idx": "749",
+                    "movie_id": 72998,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Logan (2017)",
+                    "url": "/static/datasets/ml-latest/img/168252.jpg",
+                    "movie_idx": "1313",
+                    "movie_id": 168252,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Intouchables (2011)",
+                    "url": "/static/datasets/ml-latest/img/92259.jpg",
+                    "movie_idx": "904",
+                    "movie_id": 92259,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Black Swan (2010)",
+                    "url": "/static/datasets/ml-latest/img/81591.jpg",
+                    "movie_idx": "811",
+                    "movie_id": 81591,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+                    "url": "/static/datasets/ml-latest/img/88125.jpg",
+                    "movie_idx": "863",
+                    "movie_id": 88125,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Drama",
+                        "Fantasy",
+                        "Mystery",
+                        "IMAX"
+                    ]
+                },
+                {
+                    "movie": "Trainspotting (1996)",
+                    "url": "/static/datasets/ml-latest/img/778.jpg",
+                    "movie_idx": "76",
+                    "movie_id": 778,
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+                    "url": "/static/datasets/ml-latest/img/4973.jpg",
+                    "movie_idx": "296",
+                    "movie_id": 4973,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Minority Report (2002)",
+                    "url": "/static/datasets/ml-latest/img/5445.jpg",
+                    "movie_idx": "320",
+                    "movie_id": 5445,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Mystery",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Zombieland (2009)",
+                    "url": "/static/datasets/ml-latest/img/71535.jpg",
+                    "movie_idx": "735",
+                    "movie_id": 71535,
+                    "genres": [
+                        "Action",
+                        "Comedy",
+                        "Horror"
+                    ]
+                },
+                {
+                    "movie": "Taken (2008)",
+                    "url": "/static/datasets/ml-latest/img/59369.jpg",
+                    "movie_idx": "633",
+                    "movie_id": 59369,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 1
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 0
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 2
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 1
+        }
+    },
+    "result_layout": "row-single",
+    "shown": {
+        "EASE": [
+            [
+                166,
+                603,
+                1203,
+                91,
+                629,
+                644,
+                896,
+                1349,
+                1519,
+                1102
+            ],
+            [
+                1135,
+                13,
+                11,
+                299,
+                544,
+                758,
+                386,
+                1048,
+                962,
+                43
+            ],
+            [
+                56,
+                1012,
+                131,
+                1287,
+                82,
+                1107,
+                85,
+                128,
+                1079,
+                1201
+            ],
+            [
+                1110,
+                719,
+                1230,
+                156,
+                17,
+                1159,
+                203,
+                639,
+                300,
+                344
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                192,
+                170,
+                629,
+                36,
+                786,
+                896,
+                341,
+                262,
+                32,
+                697
+            ],
+            [
+                11,
+                544,
+                758,
+                1032,
+                1048,
+                65,
+                386,
+                962,
+                43,
+                299
+            ],
+            [
+                360,
+                1174,
+                185,
+                128,
+                125,
+                398,
+                56,
+                366,
+                632,
+                250
+            ],
+            [
+                318,
+                706,
+                203,
+                300,
+                1070,
+                0,
+                1110,
+                292,
+                639,
+                344
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                541,
+                629,
+                36,
+                192,
+                144,
+                697,
+                226,
+                170,
+                32,
+                262
+            ],
+            [
+                1080,
+                540,
+                11,
+                65,
+                68,
+                1032,
+                188,
+                758,
+                375,
+                43
+            ],
+            [
+                1079,
+                632,
+                401,
+                255,
+                348,
+                295,
+                366,
+                584,
+                125,
+                815
+            ],
+            [
+                1129,
+                901,
+                1217,
+                1110,
+                318,
+                300,
+                1142,
+                874,
+                1070,
+                51
+            ]
+        ]
+    }
+}

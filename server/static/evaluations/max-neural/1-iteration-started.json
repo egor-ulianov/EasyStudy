@@ -1,0 +1,512 @@
+{
+    "iteration": 5,
+    "movies": {
+        "EASE": {
+            "movies": [
+                {
+                    "movie": "Vice (2018)",
+                    "url": "/static/datasets/ml-latest/img/195497.jpg",
+                    "movie_idx": "1453",
+                    "movie_id": 195497,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Puss in Boots: The Last Wish (2022)",
+                    "url": "/static/datasets/ml-latest/img/281096.jpg",
+                    "movie_idx": "1683",
+                    "movie_id": 281096,
+                    "genres": [
+                        "Adventure",
+                        "Animation",
+                        "Children",
+                        "Comedy",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "movie": "Blue Ruin (2013)",
+                    "url": "/static/datasets/ml-latest/img/111384.jpg",
+                    "movie_idx": "1064",
+                    "movie_id": 111384,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "The Ballad of Buster Scruggs (2018)",
+                    "url": "/static/datasets/ml-latest/img/193944.jpg",
+                    "movie_idx": "1442",
+                    "movie_id": 193944,
+                    "genres": [
+                        "Comedy",
+                        "Drama",
+                        "Western"
+                    ]
+                },
+                {
+                    "movie": "Big Short, The (2015)",
+                    "url": "/static/datasets/ml-latest/img/148626.jpg",
+                    "movie_idx": "1230",
+                    "movie_id": 148626,
+                    "genres": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "movie": "Fountain, The (2006)",
+                    "url": "/static/datasets/ml-latest/img/48043.jpg",
+                    "movie_idx": "536",
+                    "movie_id": 48043,
+                    "genres": [
+                        "Drama",
+                        "Fantasy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "There Will Be Blood (2007)",
+                    "url": "/static/datasets/ml-latest/img/56782.jpg",
+                    "movie_idx": "615",
+                    "movie_id": 56782,
+                    "genres": [
+                        "Drama",
+                        "Western"
+                    ]
+                },
+                {
+                    "movie": "Ready or Not (2019)",
+                    "url": "/static/datasets/ml-latest/img/204704.jpg",
+                    "movie_idx": "1499",
+                    "movie_id": 204704,
+                    "genres": [
+                        "Comedy",
+                        "Horror",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Hellboy (2004)",
+                    "url": "/static/datasets/ml-latest/img/7373.jpg",
+                    "movie_idx": "400",
+                    "movie_id": 7373,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy",
+                        "Horror"
+                    ]
+                },
+                {
+                    "movie": "The Devil All the Time (2020)",
+                    "url": "/static/datasets/ml-latest/img/222137.jpg",
+                    "movie_idx": "1550",
+                    "movie_id": 222137,
+                    "genres": [
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                }
+            ],
+            "order": 1
+        },
+        "Combined Neural Recommender System": {
+            "movies": [
+                {
+                    "movie": "Shot Caller (2017)",
+                    "url": "/static/datasets/ml-latest/img/175585.jpg",
+                    "movie_idx": "1346",
+                    "movie_id": 175585,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "March of the Penguins (Marche de l'empereur, La) (2005)",
+                    "url": "/static/datasets/ml-latest/img/34072.jpg",
+                    "movie_idx": "474",
+                    "movie_id": 34072,
+                    "genres": [
+                        "Documentary"
+                    ]
+                },
+                {
+                    "movie": "The Girl on the Train (2016)",
+                    "url": "/static/datasets/ml-latest/img/162602.jpg",
+                    "movie_idx": "1281",
+                    "movie_id": 162602,
+                    "genres": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "City of God (Cidade de Deus) (2002)",
+                    "url": "/static/datasets/ml-latest/img/6016.jpg",
+                    "movie_idx": "348",
+                    "movie_id": 6016,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Bullet Train (2022)",
+                    "url": "/static/datasets/ml-latest/img/273891.jpg",
+                    "movie_idx": "1642",
+                    "movie_id": 273891,
+                    "genres": [
+                        "Action",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Rye Lane (2023)",
+                    "url": "/static/datasets/ml-latest/img/285597.jpg",
+                    "movie_idx": "1783",
+                    "movie_id": 285597,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "The Gentlemen (2020)",
+                    "url": "/static/datasets/ml-latest/img/210861.jpg",
+                    "movie_idx": "1530",
+                    "movie_id": 210861,
+                    "genres": [
+                        "Action",
+                        "Crime"
+                    ]
+                },
+                {
+                    "movie": "I Origins (2014)",
+                    "url": "/static/datasets/ml-latest/img/112804.jpg",
+                    "movie_idx": "1082",
+                    "movie_id": 112804,
+                    "genres": [
+                        "Drama",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Boondock Saints, The (2000)",
+                    "url": "/static/datasets/ml-latest/img/3275.jpg",
+                    "movie_idx": "213",
+                    "movie_id": 3275,
+                    "genres": [
+                        "Action",
+                        "Crime",
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Paperman (2012)",
+                    "url": "/static/datasets/ml-latest/img/98491.jpg",
+                    "movie_idx": "957",
+                    "movie_id": 98491,
+                    "genres": [
+                        "Animation",
+                        "Comedy",
+                        "Romance"
+                    ]
+                }
+            ],
+            "order": 0
+        },
+        "Combined Neural Diversity Recommender System": {
+            "movies": [
+                {
+                    "movie": "Little Women (2019)",
+                    "url": "/static/datasets/ml-latest/img/209315.jpg",
+                    "movie_idx": "1522",
+                    "movie_id": 209315,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Napoleon Dynamite (2004)",
+                    "url": "/static/datasets/ml-latest/img/8376.jpg",
+                    "movie_idx": "414",
+                    "movie_id": 8376,
+                    "genres": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "movie": "Gone Girl (2014)",
+                    "url": "/static/datasets/ml-latest/img/112556.jpg",
+                    "movie_idx": "1080",
+                    "movie_id": 112556,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Sweet Home Alabama (2002)",
+                    "url": "/static/datasets/ml-latest/img/5620.jpg",
+                    "movie_idx": "328",
+                    "movie_id": 5620,
+                    "genres": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Margin Call (2011)",
+                    "url": "/static/datasets/ml-latest/img/90439.jpg",
+                    "movie_idx": "887",
+                    "movie_id": 90439,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Predators (2010)",
+                    "url": "/static/datasets/ml-latest/img/79057.jpg",
+                    "movie_idx": "784",
+                    "movie_id": 79057,
+                    "genres": [
+                        "Action",
+                        "Sci-Fi",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "No Time to Die (2020)",
+                    "url": "/static/datasets/ml-latest/img/224280.jpg",
+                    "movie_idx": "1558",
+                    "movie_id": 224280,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "movie": "Galaxy Quest (1999)",
+                    "url": "/static/datasets/ml-latest/img/3175.jpg",
+                    "movie_idx": "206",
+                    "movie_id": 3175,
+                    "genres": [
+                        "Adventure",
+                        "Comedy",
+                        "Sci-Fi"
+                    ]
+                },
+                {
+                    "movie": "Terminal, The (2004)",
+                    "url": "/static/datasets/ml-latest/img/8529.jpg",
+                    "movie_idx": "417",
+                    "movie_id": 8529,
+                    "genres": [
+                        "Comedy",
+                        "Drama",
+                        "Romance"
+                    ]
+                },
+                {
+                    "movie": "Sonic the Hedgehog (2020)",
+                    "url": "/static/datasets/ml-latest/img/210577.jpg",
+                    "movie_idx": "1527",
+                    "movie_id": 210577,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Children",
+                        "Comedy",
+                        "Fantasy",
+                        "Sci-Fi"
+                    ]
+                }
+            ],
+            "order": 2
+        }
+    },
+    "algorithm_assignment": {
+        "0": {
+            "algorithm": "EASE",
+            "name": "EASE",
+            "order": 1
+        },
+        "1": {
+            "algorithm": "Combined Neural Recommender System",
+            "name": "Combined Neural Recommender System",
+            "order": 0
+        },
+        "2": {
+            "algorithm": "Combined Neural Diversity Recommender System",
+            "name": "Combined Neural Diversity Recommender System",
+            "order": 2
+        }
+    },
+    "result_layout": "rows",
+    "shown": {
+        "EASE": [
+            [
+                749,
+                546,
+                930,
+                1146,
+                1344,
+                1480,
+                1514,
+                1643,
+                1311,
+                1622
+            ],
+            [
+                1558,
+                1150,
+                1152,
+                1592,
+                1110,
+                1145,
+                1164,
+                1098,
+                1201,
+                1181
+            ],
+            [
+                417,
+                206,
+                1313,
+                1493,
+                1451,
+                1024,
+                1239,
+                1362,
+                1039,
+                1022
+            ],
+            [
+                1664,
+                709,
+                637,
+                1376,
+                1142,
+                1398,
+                414,
+                1533,
+                1080,
+                1700
+            ]
+        ],
+        "Combined Neural Recommender System": [
+            [
+                540,
+                1655,
+                1182,
+                199,
+                1432,
+                1180,
+                1185,
+                675,
+                259,
+                340
+            ],
+            [
+                1264,
+                1716,
+                271,
+                262,
+                1472,
+                1084,
+                924,
+                308,
+                1136,
+                1129
+            ],
+            [
+                360,
+                743,
+                1802,
+                651,
+                1884,
+                1527,
+                27,
+                791,
+                772,
+                1165
+            ],
+            [
+                307,
+                1638,
+                328,
+                759,
+                1522,
+                145,
+                1723,
+                266,
+                817,
+                1371
+            ]
+        ],
+        "Combined Neural Diversity Recommender System": [
+            [
+                1180,
+                887,
+                784,
+                1377,
+                340,
+                1299,
+                540,
+                1432,
+                1655,
+                1185
+            ],
+            [
+                340,
+                675,
+                1643,
+                546,
+                199,
+                1180,
+                1299,
+                1497,
+                930,
+                1480
+            ],
+            [
+                1264,
+                675,
+                784,
+                1110,
+                1164,
+                1514,
+                308,
+                199,
+                1622,
+                259
+            ],
+            [
+                1514,
+                1165,
+                887,
+                206,
+                1613,
+                199,
+                1451,
+                1377,
+                1362,
+                1313
+            ]
+        ]
+    }
+}

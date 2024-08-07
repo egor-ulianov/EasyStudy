@@ -1,0 +1,155 @@
+{
+    "iteration": 5,
+    "selected": [
+        [
+            438,
+            292,
+            360,
+            0,
+            180,
+            779,
+            639,
+            810,
+            9,
+            75,
+            487,
+            1142
+        ],
+        [
+            949,
+            45,
+            308,
+            202,
+            1178,
+            268,
+            552,
+            1044,
+            766,
+            785,
+            740,
+            71,
+            159
+        ],
+        [
+            921,
+            749,
+            583,
+            637,
+            184,
+            816,
+            1239,
+            1075,
+            410,
+            728,
+            1103
+        ],
+        [
+            1296,
+            194,
+            460,
+            1150,
+            136,
+            1083,
+            875,
+            685,
+            994,
+            1030,
+            990,
+            519,
+            252
+        ]
+    ],
+    "selected_variants": [
+        [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "dont_like_anything": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "algorithm_comparison": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ratings": [
+        {
+            "EASE": 4,
+            "Combined Neural Recommender System": 3,
+            "Combined Neural Diversity Recommender System": 3
+        },
+        {
+            "EASE": 5,
+            "Combined Neural Recommender System": 3,
+            "Combined Neural Diversity Recommender System": 3
+        },
+        {
+            "EASE": 5,
+            "Combined Neural Recommender System": 2,
+            "Combined Neural Diversity Recommender System": 2
+        },
+        {
+            "EASE": 4,
+            "Combined Neural Recommender System": 2,
+            "Combined Neural Diversity Recommender System": 4
+        }
+    ]
+}
