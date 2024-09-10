@@ -21,11 +21,11 @@ from sklearn.metrics.pairwise import cosine_similarity, pairwise_distances
 from plugins.fastcompare.algo.algorithm_base import AlgorithmBase, Parameter, ParameterType
 
 
-class NeuralRecommender(AlgorithmBase, ABC):
+class NeuralFlippedRecommender(AlgorithmBase, ABC):
 
-    def __init__(self, loader, neural_select=50, **kwargs):
+    def __init__(self, loader, cf_select=50, **kwargs):
         self.loader = loader
-        self.neural_select = neural_select
+        self.cf_select = cf_select
         self.image_features = None
         self.thumbnail_similarity = None
         self.cf_similarity = None
@@ -61,6 +61,7 @@ class NeuralRecommender(AlgorithmBase, ABC):
     def predict(self, selected_items, filter_out_items, k):
         print(f"Selected items: {selected_items}")
         print(f"Filtered items: {filter_out_items}")
+        print(f"Scores form: {np.shape(self.combined_similarity)}")
 
         neural_scores = np.sum(self.thumbnail_similarity[selected_items], axis=0)
         cf_scores = np.sum(self.cf_similarity[selected_items], axis=0)
@@ -71,29 +72,29 @@ class NeuralRecommender(AlgorithmBase, ABC):
 
         print(f"cfscores: {cf_scores}")
 
-        neural_selection = np.argsort(-neural_scores)[:self.neural_select]
-        print(f"Neural selection: {neural_selection}")
+        cf_selection = np.argsort(-cf_scores)[:self.cf_select]
+        print(f"CF selection: {cf_selection}")
 
-        filtered_cf_scores = cf_scores[neural_selection]
-        sorted_k_indices = np.argsort(-filtered_cf_scores)[:k]
-        print(f"Sorted top k indices: {sorted_k_indices}")
+        filtered_neural_scores = neural_scores[cf_selection]
+        sorted_k_indices = np.argsort(-filtered_neural_scores)[:k]
+        print(f"Neural selection: {sorted_k_indices}")
 
-        recommended_indices = neural_selection[sorted_k_indices[:k]]
+        recommended_indices = cf_selection[sorted_k_indices[:k]]
         print(f"Recommended indices: {recommended_indices}")
 
         return recommended_indices
 
     @classmethod
     def name(cls):
-        return "CNRS"
+        return "CNFRS"
 
     @classmethod
     def parameters(cls):
         return [
             Parameter(
-                "neural_select",
+                "cf_select",
                 "float",
-                50,
+               100,
                 "Weight for combining thumbnails and CF similarities"
             )
         ]

@@ -20,12 +20,12 @@ from sklearn.metrics.pairwise import cosine_similarity, pairwise_distances
 from plugins.fastcompare.algo.algorithm_base import AlgorithmBase, Parameter, ParameterType
 
 
-class NeuralDiversityRecommender(AlgorithmBase, ABC):
+class NeuralDiversityFlippedRecommender(AlgorithmBase, ABC):
 
-    def __init__(self, loader, neural_select=100, cf_select=30, genres_diversity_shift=0.1, **kwargs):
+    def __init__(self, loader, genre_select=100, cf_select=30, genres_diversity_shift=0.1, **kwargs):
         self.genres_similarity = None
         self.loader = loader
-        self.neural_select = neural_select
+        self.genre_select = genre_select
         self.cf_select = cf_select
         self.genres_diversity_shift = genres_diversity_shift
         self.image_features = None
@@ -102,42 +102,48 @@ class NeuralDiversityRecommender(AlgorithmBase, ABC):
         return genre_sim_matrix
 
     def predict(self, selected_items, filter_out_items, k):
+        print(f"Selected items: {selected_items}")
+        print(f"Filtered items: {filter_out_items}")
+        print(f"Scores form: {np.shape(self.combined_similarity)}")
+
         neural_scores = np.sum(self.thumbnail_similarity[selected_items], axis=0)
         cf_scores = np.sum(self.cf_similarity[selected_items], axis=0)
         genre_scores = np.sum(self.genres_similarity[selected_items], axis=0)
+
+        print(f"neural_scores: {neural_scores}")
 
         for item in filter_out_items:
             neural_scores[item] = -np.inf
             cf_scores[item] = -np.inf
             genre_scores[item] = -np.inf
 
-        neural_selection = np.argsort(-neural_scores)[:self.neural_select]
+        genres_selection = np.argsort(genre_scores)[int(len(genre_scores) * self.genres_diversity_shift):int(
+            len(genre_scores) * self.genres_diversity_shift) + self.genre_select]
 
-        filtered_cf_scores = cf_scores[neural_selection]
-        cf_selection = neural_selection[np.argsort(-filtered_cf_scores)[:self.cf_select]]
-        print(f"Sorted top cf indices: {cf_selection}")
+        filtered_cf_scores = cf_scores[genres_selection]
+        cf_selection = genres_selection[np.argsort(-filtered_cf_scores)[:self.cf_select]]
+        print(f"CF selection: {cf_selection}")
 
-        genres_scores = genre_scores[cf_selection]
-        genres_selection = np.argsort(genres_scores)[int(len(cf_selection) * self.genres_diversity_shift):
-                                                     int(len(cf_selection) * self.genres_diversity_shift) + k]
+        filtered_neural_scores = neural_scores[cf_selection]
+        neural_selection = cf_selection[np.argsort(-filtered_neural_scores)[:k]]
 
-        recommended_indices = cf_selection[genres_selection]
+        recommended_indices = neural_selection
         print(f"Recommended indices: {recommended_indices}")
 
         return recommended_indices
 
     @classmethod
     def name(cls):
-        return "CNDRS"
+        return "CNDFRS"
 
     @classmethod
     def parameters(cls):
         return [
             Parameter(
-                "neural_select",
+                "genre_select",
                 "float",
                 100,
-                "Weight for combining thumbnails and CF similarities"
+                "Weight top genres similarity select"
             ),
             Parameter(
                 "cf_select",
